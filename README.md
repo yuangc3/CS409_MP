@@ -16,7 +16,7 @@ Machine Problem for CS409 Fall
 This assignment designed to help you set up your development environment. You will build a simple card using only HTML/CSS. The card will look like [this example](http://i.imgur.com/aeKrEga.png) except with your own details.
 
 #### Requirements
-1. The webpage should mirror the layout shown in the example.
+1. The webpage should mirror the layout shown in the example (colored card on white webpage background.)
 2. Elements: You should use at least one of all the following: image (`<img>`), link (`<a>`), paragraph (`<p>`), heading (`<h1>, <h2>, ...`).
 3. Layout: The image, heading, and link must all be horizontally centered. The biography text can be either left-aligned or horizontally centered.
 4. Styling: All styling must lie within the CSS file. (No inline styling!)
@@ -41,11 +41,14 @@ If the web browser does not open automatically, go to `http://localhost:8080/` t
 
 You should now be able to edit the files in the `src` folder and see the changes in your browser.
 
+### Deploying the MP
+In order for us to view and grade your MP, you will be deploying your webpage with Gitlab's pipelines. Due to [abuses with Gitlab's free pipeline](https://forum.gitlab.com/t/concern-about-gitlab-asking-for-credit-card/54479), you will need to provide a valid credit/debit card to verify you are a real user before deploying. You may see a $1 transaction on your account, don't panic, Gitlab does this to verify the card, **but no money will be transferred**.
+
 ## Grading Breakdown
 This assignment is worth 5% of your final grade. Breakdown is as follows:
 1. Correct HTML tags and content (2%)
-2. Correct CSS styling (%2)
-3. Correct Deployment and submission (%1)
+2. Correct CSS styling (2%)
+3. Correct deployment and submission (1%)
 
 ## Rules
 - This is an individual assignment. No collaboration is permitted.
