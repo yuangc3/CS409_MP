@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# CS409_MP
-Machine Problem for CS409 Fall 
-=======
 # MP 0: The Basics
 ### Due: Wednesday, Sep 07, 11:59PM
 
@@ -63,12 +59,3 @@ This assignment is worth 5% of your final grade. Breakdown is as follows:
 Here's what you will need to submit:
 1. Create a private repository on GitLab. Make sure "Initialize this repository with a README" is **not** checked.
 2. Change the remote url for the mp0 directory to the url of the new private repository you created.
-```
-git remote rename origin old-origin
-git remote add origin git@gitlab.com:<your-gitlab-username>/mp0.git
-```
-3. Commit and push your local changes to this new repository.
-4. `.gitlab-ci.yml` file automatically makes a Gitlab CI pipeline run to deploy your code. After the pipeline finishes, your site should be live at `https://<your-gitlab-username>.gitlab.io/mp0`. **It may take up to 10-30 minutes for the site to go live after the first deployment.**
-5. Invite `uiucwp` as a collaborator. This should be as a **reporter**, not as a *guest*, otherwise we can't see your code.
-6. Fill out and submit the form [here](https://forms.gle/MScXPxA2TThLNco76).
->>>>>>> 13e6ca9 (Create mp0)
