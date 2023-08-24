@@ -40,6 +40,8 @@ You should now be able to edit the files in the `src` folder and see the changes
 ### Deploying the MP
 In order for us to view and grade your MP, you will be deploying your webpage with Gitlab's pipelines. Due to [abuses with Gitlab's free pipeline](https://forum.gitlab.com/t/concern-about-gitlab-asking-for-credit-card/54479), you will need to provide a valid credit/debit card to verify you are a real user before deploying. You may see a $1 transaction on your account, don't panic, Gitlab does this to verify the card, **but no money will be transferred**.
 
+To test your code locally, in the file `package.json`, replace `"start": "export NODE_OPTIONS=--openssl-legacy-provider; webpack-dev-server --open` with `"start": "webpack-dev-server --open"`. However, DO NOT COMMIT these changes to your repository, as this will affect your code's ability to deploy. 
+
 ## Grading Breakdown
 This assignment is worth 5% of your final grade. Breakdown is as follows:
 1. Correct HTML tags and content (2%)
@@ -55,7 +57,3 @@ This assignment is worth 5% of your final grade. Breakdown is as follows:
 - HTML tables cannot be used for layout.
 - If you think something you’re doing might not be acceptable, please ask on Piazza.
 
-## Submission Details
-Here's what you will need to submit:
-1. Create a private repository on GitLab. Make sure "Initialize this repository with a README" is **not** checked.
-2. Change the remote url for the mp0 directory to the url of the new private repository you created.
