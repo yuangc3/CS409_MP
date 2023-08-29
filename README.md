@@ -1,5 +1,5 @@
 # MP 0: The Basics
-### Due: Wednesday, Sep 07, 11:59PM
+### Due: Tuesday, Sep 05, 11:59PM
 
 ## Table of Contents
 1. [Assignment](#assignment)
