@@ -1,5 +1,5 @@
 # MP 0: The Basics
-### Due: Tuesday, Sep 05, 11:59PM
+### Due: Tuesday, Sep 17, 11:59PM
 
 ## Table of Contents
 1. [Assignment](#assignment)
@@ -57,3 +57,21 @@ This assignment is worth 5% of your final grade. Breakdown is as follows:
 - HTML tables cannot be used for layout.
 - If you think something you’re doing might not be acceptable, please ask on Piazza.
 
+## Submission Details
+Here's what you will need to submit:
+1. Create a private repository on GitLab. Make sure "Initialize this repository with a README" is **not** checked.
+2. Change the remote url for the mp0 directory to the url of the new private repository you created.
+```
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:<your-gitlab-username>/mp0.git
+```
+3. Commit and push your local changes to this new repository.
+4. `.gitlab-ci.yml` file automatically makes a Gitlab CI pipeline run to deploy your code. After the pipeline finishes, your site should be live at `https://<your-gitlab-username>.gitlab.io/mp0`. **It may take up to 10-30 minutes for the site to go live after the first deployment.**
+5. Invite `uiucwp` as a collaborator. This should be as a **reporter**, not as a *guest*, otherwise we can't see your code.
+6. Fill out and submit the form [here](https://forms.gle/dyY45xfA94V3PsmR9).
+
+## Large Language Model (LLM) Usage Policy
+
+We acknowledge the transformative potential of LLMs in generating code; however, we are still in the nascent stages of understanding how to embed LLMs in developer workflows to write code more efficiently while maintaining quality. Therefore, we will not be teaching students directly how to use LLMs to develop web applications.
+
+As part of this class, we *do* encourage students to experiment with LLM services such as OpenAI's ChatGPT to generate source code for MPs. If LLMs are used to generate code for an MP, students *must* (1) submit their chatlogs along with their source code, and (2) answer survey questions related to their experience using LLMs in the grading form. Failure to do this will be a violation of the academic integrity policy of this course.
